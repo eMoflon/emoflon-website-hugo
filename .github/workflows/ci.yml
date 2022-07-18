@@ -26,6 +26,8 @@ jobs:
           sudo dpkg -i $HUGO_DEB_FILE
       - name: Check out repository code
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
       - name: Build production site
         run: |
           hugo
