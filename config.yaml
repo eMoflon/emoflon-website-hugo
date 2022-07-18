@@ -1,14 +1,8 @@
-baseURL: https://example.com
+baseURL: https://emoflon.org
 languageCode: en-us
 defaultContentLanguage: en
-title: Cayman
+title: eMoflon Project Site
 theme: cayman-hugo-theme
-
-# Google analytics
-googleAnalytics: UA-123456789-1
-
-# Disqus comments
-disqusShortname: yourdiscussshortname
 
 # Syntax highlighting
 pygmentsCodefences: true
@@ -22,15 +16,16 @@ permalinks:
 
 params:
   # Header text, can be markdown
-  project_name: Cayman Hugo Theme
-  project_tagline: A clean, responsive Hugo theme, ported from the original Jekyll Cayman theme
+  # TODO: Fix after first deployment to enable logo on every sub page
+  project_name: "![](./img/eMoflonLogoWithTex_semitransparent_300px.png)"
+  project_tagline: "eMoflon is a tool suite for Model-Driven Engineering (MDE) that provides a range of visual and formal languages for (meta)modelling and model management. eMoflon currently consists of the following tools, which all share a common foundation based on graph pattern matching and graph transformations:"
 
   # Date format for post list and single pages
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: 2006-01-02
 
   # Footer text, can be markdown
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  footer: Copyright 2012-2022 eMoflon Developer Team &bull; Built with [Hugo](https://gohugo.io/) &bull; [Theme](https://github.com/zwbetz-gh/cayman-hugo-theme) &bull; [Legal Notice](https://www.es.tu-darmstadt.de/es/datenschutzerklaerung) &bull; [Privacy Policy](https://www.es.tu-darmstadt.de/es/datenschutzerklaerung).
 
   # If true, the CSS/JS for Katex math typesetting are enabled
   katex: true
@@ -61,15 +56,18 @@ params:
 
 menu:
   nav:
-    - name: Blog
+    - name: Home
       url: /
       weight: 1
-    - name: Tags
-      url: /tags/
+    - name: "eMoflon::Core"
+      url: /core/
       weight: 2
-    - name: About
-      url: /about/
+    - name: "eMoflon::IBeX"
+      url: /ibex/
       weight: 3
-    - name: RSS
-      url: /index.xml
+    - name: "eMoflon::Neo"
+      url: /neo/
       weight: 4
+#    - name: RSS
+#      url: /index.xml
+#      weight: 5
