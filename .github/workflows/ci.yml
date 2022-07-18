@@ -12,17 +12,18 @@ env:
   # Hugo version to use
   VERSION: "0.101.0"
   # Hugo release source
-  HUGO_RELEASE_SRC: "https://github.com/gohugoio/hugo/releases/tag/v$VERSION"
-  # Hugo Debian package file name
-  HUGO_DEB_FILE: "hugo_extended_$VERSION_Linux-64bit.deb"
+  HUGO_RELEASE_SRC: "https://github.com/gohugoio/hugo/releases/tag/v"
 
 jobs:
   hugo-build:
     runs-on: [ubuntu-20.04]
     steps:
+      - name: Set env vars
+        run: |
+          echo "HUGO_DEB_FILE=hugo_extended_$VERSION_Linux-64bit.deb" >> GITHUB_ENV
       - name: Install Hugo
         run: |
-          RESPONSE=$(curl -s $HUGO_RELEASE_SRC)
+          RESPONSE=$(curl -s $HUGO_RELEASE_SRC/$VERSION)
           echo "curl: $RESPONSE"
           HUGO_RELEASE=$(echo "$RESPONSE" \
             | grep $HUGO_DEB_FILE \
