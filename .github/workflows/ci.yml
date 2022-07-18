@@ -23,7 +23,7 @@ jobs:
           echo "HUGO_DEB_FILE=hugo_extended_$VERSION_Linux-64bit.deb" >> GITHUB_ENV
       - name: Install Hugo
         run: |
-          RESPONSE=$(curl -s $HUGO_RELEASE_SRC/$VERSION)
+          RESPONSE=$(curl -s $HUGO_RELEASE_SRC$VERSION)
           echo "curl: $RESPONSE"
           HUGO_RELEASE=$(echo "$RESPONSE" \
             | grep $HUGO_DEB_FILE \
