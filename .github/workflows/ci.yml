@@ -18,11 +18,9 @@ jobs:
   hugo-build:
     runs-on: [ubuntu-20.04]
     steps:
-      - name: Set env vars
-        run: |
-          echo "HUGO_DEB_FILE=hugo_extended_${VERSION}_Linux-64bit.deb" >> GITHUB_ENV
       - name: Install Hugo
         run: |
+          export HUGO_DEB_FILE=hugo_extended_${VERSION}_Linux-64bit.deb
           echo "Using URL: $HUGO_RELEASE_SRC/download/v$VERSION/$HUGO_DEB_FILE"
           wget -q $HUGO_RELEASE_SRC/download/v$VERSION/$HUGO_DEB_FILE
           sudo dpkg -i $HUGO_DEB_FILE
