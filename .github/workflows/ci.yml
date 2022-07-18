@@ -12,7 +12,7 @@ env:
   # Hugo version to use
   VERSION: "0.101.0"
   # Hugo release source
-  HUGO_RELEASE_SRC: "https://github.com/gohugoio/hugo/releases/tag/v"
+  HUGO_RELEASE_SRC: "https://github.com/gohugoio/hugo/releases"
 
 jobs:
   hugo-build:
@@ -23,17 +23,7 @@ jobs:
           echo "HUGO_DEB_FILE=hugo_extended_${VERSION}_Linux-64bit.deb" >> GITHUB_ENV
       - name: Install Hugo
         run: |
-          RESPONSE=$(curl -s $HUGO_RELEASE_SRC$VERSION)
-          echo "curl: $RESPONSE"
-          HUGO_RELEASE=$(echo "$RESPONSE" \
-            | grep $HUGO_DEB_FILE \
-            | cut -d : -f 2,3 \
-            | tr -d \")
-          if [[ -z "${HUGO_RELEASE// }" ]]; then
-            log "This runner propably reached it's Github API rate limit. Exit."
-            exit 1
-          fi
-          wget -qi $HUGO_RELEASE
+          wget -qi $HUGO_RELEASE_SRC/download/v$VERSION/$HUGO_DEB_FILE
           sudo dpkg -i $HUGO_DEB_FILE
       - name: Check out repository code
         uses: actions/checkout@v2
