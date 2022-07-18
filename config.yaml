@@ -59,7 +59,7 @@ params:
 
 menu:
   nav:
-    - name: Home
+    - name: News
       url: /
       weight: 1
     - name: "eMoflon::Core"
