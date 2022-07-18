@@ -26,11 +26,20 @@ jobs:
           sudo dpkg -i $HUGO_DEB_FILE
       - name: Check out repository code
         uses: actions/checkout@v2
-      - name: Build site
+      - name: Build production site
         run: |
           hugo
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: public
+          name: public-prod
+          path: public/
+      - name: Build draft site
+        run: |
+          rm -rf public/*
+          hugo -D
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: public-draft
           path: public/
