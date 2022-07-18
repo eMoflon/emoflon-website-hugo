@@ -18,7 +18,11 @@ params:
   # Header text, can be markdown
   # TODO: Fix after first deployment to enable logo on every sub page
   project_name: "![](./img/eMoflonLogoWithTex_semitransparent_300px.png)"
-  project_tagline: "eMoflon is a tool suite for Model-Driven Engineering (MDE) that provides a range of visual and formal languages for (meta)modelling and model management. eMoflon currently consists of the following tools, which all share a common foundation based on graph pattern matching and graph transformations:"
+  project_tagline: "**eMoflon** is a tool suite for Model-Driven Engineering (MDE) that provides a range of visual and formal languages for (meta)modelling and model management."
+  project_tagline_sub: "eMoflon currently consists of the following tools, which all share a common foundation based on graph pattern matching and graph transformations:"
+
+  # Theme customizations by us
+  frontpage_text: ""
 
   # Date format for post list and single pages
   # For more date formats see https://gohugo.io/functions/format/
