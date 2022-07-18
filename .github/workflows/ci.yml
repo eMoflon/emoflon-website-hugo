@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Set env vars
         run: |
-          echo "HUGO_DEB_FILE=hugo_extended_$VERSION_Linux-64bit.deb" >> GITHUB_ENV
+          echo "HUGO_DEB_FILE=hugo_extended_${VERSION}_Linux-64bit.deb" >> GITHUB_ENV
       - name: Install Hugo
         run: |
           RESPONSE=$(curl -s $HUGO_RELEASE_SRC$VERSION)
