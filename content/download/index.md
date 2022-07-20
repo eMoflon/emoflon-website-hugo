@@ -9,7 +9,7 @@ We recommend the usage of our [pre-built Eclipse application](#pre-built-eclipse
 
 ## Pre-built Eclipse Application
 
-You can download the latest version of our pre-built Eclipse application from the [release section of our Github repository](https://github.com/eMoflon/emoflon-eclipse-build/releases).
+You can download the latest version of our pre-built Eclipse application from the [release section of our GitHub repository](https://github.com/eMoflon/emoflon-eclipse-build/releases).
 
 There are several versions available for **Windows**, **Linux**, and **macOS**:
 
@@ -20,4 +20,4 @@ There are several versions available for **Windows**, **Linux**, and **macOS**:
 
 You can use our [Eclipse update site](https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/) to install eMoflon::IBeX as plug-in: [https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/](https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/)
 
-- Keep in mind that you have to use the Eclipse Modeling tools with a few plug-ins. Please check out the installation instructions in our [Github repository](https://github.com/eMoflon/emoflon-ibex#how-to-develop).
+- Keep in mind that you have to use the Eclipse Modeling tools with a few plug-ins. Please check out the installation instructions in our [GitHub repository](https://github.com/eMoflon/emoflon-ibex#how-to-develop).
