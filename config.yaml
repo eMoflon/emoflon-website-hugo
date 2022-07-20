@@ -28,7 +28,7 @@ params:
   dateFormat: 2006-01-02
 
   # Footer text, can be markdown
-  footer: Copyright 2012-2022 eMoflon Developer Team &bull; Built with [Hugo](https://gohugo.io/) &bull; [Theme](https://github.com/zwbetz-gh/cayman-hugo-theme) &bull; [Legal Notice](https://www.es.tu-darmstadt.de/es/datenschutzerklaerung) &bull; [Privacy Policy](https://www.es.tu-darmstadt.de/es/datenschutzerklaerung).
+  footer: Copyright 2012-2022 eMoflon Developer Team &bull; Built with [Hugo](https://gohugo.io/) &bull; [Theme](https://github.com/zwbetz-gh/cayman-hugo-theme) &bull; [Legal Notice](https://www.es.tu-darmstadt.de/impressum) &bull; [Privacy Policy](https://www.es.tu-darmstadt.de/es/datenschutzerklaerung).
 
   # If true, the CSS/JS for Katex math typesetting are enabled
   katex: true
@@ -62,20 +62,20 @@ menu:
     - name: News
       url: /
       weight: 1
-    - name: "eMoflon::Core"
-      url: /core/
-      weight: 2
     - name: "eMoflon::IBeX"
       url: /ibex/
-      weight: 3
+      weight: 2
     - name: "eMoflon::Neo"
       url: /neo/
-      weight: 4
+      weight: 3
     - name: "In Action"
       url: /action/
-      weight: 5
+      weight: 4
     - name: "Development"
       url: /dev/
+      weight: 5
+    - name: "Download"
+      url: /download/
       weight: 6
 #    - name: RSS
 #      url: /index.xml
