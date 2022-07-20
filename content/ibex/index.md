@@ -11,6 +11,8 @@ eMoflon::IBeX was designed with flexibility in mind and already offers many more
 Some of the tasks we already support and can be automatically derived from a single TGG include:
 model generation, consistency checking, link creation, and incremental model synchronisation.
 
+{{< img src="/img/eMoflonLogoIbex.png" alt="" width="30%" >}}
+
 If you have any problems or questions use our [eMoflon::IBeX issue tracker](https://github.com/eMoflon/emoflon-ibex/issues).
 
 eMoflon::IBeX is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on [GitHub](https://github.com/eMoflon/emoflon-ibex).
