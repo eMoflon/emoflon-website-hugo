@@ -45,3 +45,23 @@ jobs:
         with:
           name: public-draft
           path: public/
+
+  deploy:
+    # TODO: Restrict deployment job on commits on branch 'main' only.
+    needs: [hugo-build]
+    runs-on: [ubuntu-20.04]
+    steps:
+      - name: Download Hugo build
+        uses: actions/download-artifact@v2
+        with:
+          name: public-prod
+      - name: Push build artifacts to deployment repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: 'public'
+          destination-github-username: 'maxkratz'
+          destination-repository-name: 'emoflon-website-deploy'
+          user-email: mkratz@es.tu-darmstadt.de
+          target-branch: main
