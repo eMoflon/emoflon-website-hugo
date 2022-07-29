@@ -45,3 +45,45 @@ jobs:
         with:
           name: public-draft
           path: public/
+
+  deploy-prod:
+    needs: [hugo-build]
+    runs-on: [ubuntu-20.04]
+    # Skip deploy job if branch is 'main'
+    if: ${{ github.ref == 'refs/heads/main' }}
+    steps:
+      - name: Download Hugo build
+        uses: actions/download-artifact@v2
+        with:
+          name: public-prod
+      - name: Push build artifacts to deployment repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: '.'
+          destination-github-username: 'maxkratz'
+          destination-repository-name: 'emoflon-website-deploy'
+          user-email: maximilian.kratz@es.tu-darmstadt.de
+          target-branch: main
+
+  deploy-testing:
+    needs: [hugo-build]
+    runs-on: [ubuntu-20.04]
+    # Skip deploy job if branch is 'testing/deploy'
+    if: ${{ github.ref == 'refs/heads/testing/deploy' }}
+    steps:
+      - name: Download Hugo build
+        uses: actions/download-artifact@v2
+        with:
+          name: public-prod
+      - name: Push build artifacts to deployment repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: '.'
+          destination-github-username: 'maxkratz'
+          destination-repository-name: 'emoflon-website-deploy'
+          user-email: maximilian.kratz@es.tu-darmstadt.de
+          target-branch: testing
