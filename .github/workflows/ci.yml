@@ -47,9 +47,10 @@ jobs:
           path: public/
 
   deploy:
-    # TODO: Restrict deployment job to commits on branch 'main' only.
     needs: [hugo-build]
     runs-on: [ubuntu-20.04]
+    # Skip deploy job if branch is either 'main' nor 'testing/deploy'
+    if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/testing/deploy' }}
     steps:
       - name: Download Hugo build
         uses: actions/download-artifact@v2
@@ -63,5 +64,5 @@ jobs:
           source-directory: '.'
           destination-github-username: 'maxkratz'
           destination-repository-name: 'emoflon-website-deploy'
-          user-email: mkratz@es.tu-darmstadt.de
+          user-email: maximilian.kratz@es.tu-darmstadt.de
           target-branch: main
