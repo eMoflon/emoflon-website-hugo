@@ -175,7 +175,7 @@ $ git submodule update --init --recursive
 
 The most important folders and files are listed here:
 
-- [assets/](assets/) files that are processed by Hugo, e.g. css.
+- [assets/](assets/) files that are processed by Hugo, e.g., css.
 - [content/](content/) Content of the pages, texts, structure etc.
 - [layouts/](layouts/) Own changes and/or extensions, e.g., of the theme.
 - [static/](static/) Static files that should be available on the finished web page in exactly the same way, e.g., images.
