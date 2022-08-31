@@ -10,7 +10,7 @@ eMoflon::IBeX is a model-driven software engineering tool suite. As such, eMoflo
 
 
 | {{< img src="/img/Ecore2Java.png" alt="" width="125%" >}} | {{< img src="/img/GTRule.png" alt="" width="100%" >}}  | {{< img src="/img/TGG.png" alt="" width="100%" >}} |
-|---|---|---|
+|:-------------------:|:-----------------------------------:|:-----------------------------------:|
 | Java code generator | Unidirectional model transformation | Bidirectional model transformations |
 
 
