@@ -4,29 +4,67 @@ date: 2022-07-18
 draft: true
 ---
 
-<!-- Copy-pasted from the old eMoflon webpage -->
-eMoflon::IBeX is an incremental interpreter for graph patterns and graph transformation rules (for unidirectional model transformation), and for Triple Graph Grammars (TGGs) for bidirectional model transformation.
-eMoflon::IBeX uses an incremental graph pattern matcher meaning that it can be used for reactive programming and trades memory for almost constant response time to model changes.
-eMoflon::IBeX was designed with flexibility in mind and already offers many more model management operations than has ever been possible in the same TGG tool.
-Some of the tasks we already support and can be automatically derived from a single TGG include:
-model generation, consistency checking, link creation, and incremental model synchronisation.
-
 {{< img src="/img/eMoflonLogoIbex.png" alt="" width="30%" >}}
 
-If you have any problems or questions use our [eMoflon::IBeX issue tracker](https://github.com/eMoflon/emoflon-ibex/issues).
+**eMoflon::IBeX** is a model-driven software engineering tool suite. As such, eMoflon supports the automatic creation of Java software artifacts from [Ecore](https://www.eclipse.org/modeling/emf/) specifiations. Our code generator (SmartEMF) is based on our own custom implementation of [EMF](https://www.eclipse.org/modeling/emf/), which resolves many EMF legacy issues and is tuned for high performance. As its core functionality, eMoflon provides a powerful model transformation engine, which enables unidirectional model transformations (eMoflon::IBeX-GT) and bidirectional model transformations (eMoflon::IBeX-TGG).
 
-eMoflon::IBeX is open source (dually licensed under GPL 3.0 and EPL 1.0) and its source code is available on [GitHub](https://github.com/eMoflon/emoflon-ibex).
+
+| {{< img src="/img/Ecore2Java.png" alt="" width="125%" >}} | {{< img src="/img/GTRule.png" alt="" width="100%" >}}  | {{< img src="/img/TGG.png" alt="" width="100%" >}} |
+|:-------------------:|:-----------------------------------:|:-----------------------------------:|
+| Java code generator | Unidirectional model transformation | Bidirectional model transformations |
+
 
 ## eMoflon::IBeX-GT
 
-TODO
+eMoflon::IBeX-GT provides graph pattern matching functionality and serves as an interpreter for graph transformation rules for unidirectional model transformation purposes. To facilitate efficient computation of consecutive model transformations, eMoflon uses the highly parallelized incremental graph pattern matcher [HiPE](https://github.com/HiPE-DevOps/HiPE-Updatesite).
+
+
+
+### Feature Overview
+
+- Domain specific language (DSL): Defining graph patterns and graph transformation rules
+- Code generator: Automatic creation of a Java API based on the given DSL specification and a given Ecore-metamodel
+- Graph pattern matching: HiPE is a Rete-inspired actor-based incremental graph pattern matcher
+- Unidirectional model transformation: Graph transformation rules specify preconditions and postconditions
+- EMF-based
 
 
 ## eMoflon::IBeX-TGG
 
-TODO
+**Triple Graph Grammars (TGGs)** are a declarative and rule-based technique to specify bidirectional model transformations.
+Basically, this means that TGGs are used to express a consistency relationship between two models.
+This relationship in the form of a set of grammar rules is then automatically transformed to obtain different consistency restoring operations such as translators or synchronizers.
+Based on the formal graph transformation framework, TGGs provide strong guarantees regarding correctness.
+
+### Feature Overview
+
+- EMF-based
+- Textual language for defining TGGs
+- Homogeneous and heterogeneous transformations
+- Complex attribute conditions
+- Least-change propagations (only absolutly necessary deletions are performed during synchronisation)
+- (Optional) Support for Integer Linear Programming (ILP) to find optimal solutions
+
+### Operational Strategies
+
+- **Model Generation**: Generate pairs of consistent models
+- **Batch Translation**: Translate a model to obtain the opposite one
+- **Sequential Synchronisation**: Changes are propagated from one model to another without conflict detection
+- **Concurrent Synchronisation**: Synchronisation between two models with conflict detection
+- **Consistency Check**: Determine which elements correspond to another for two models
+- **Check Only**: Determine whether a pair of models is consistent w.r.t. TGG
 
 
 ## Download
 
 Check out our [download page](../download#emoflonibex) to download latest versions of eMoflon::IBeX.
+
+
+## Develop
+
+TODO
+
+
+## Support
+
+If you have any problems or questions use our [eMoflon::IBeX issue tracker](https://github.com/eMoflon/emoflon-ibex/issues).
