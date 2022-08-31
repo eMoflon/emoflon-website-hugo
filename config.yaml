@@ -77,6 +77,9 @@ menu:
     - name: "Download"
       url: /download/
       weight: 6
+    - name: "Contact"
+      url: /contact/
+      weight: 7
 #    - name: RSS
 #      url: /index.xml
-#      weight: 7
+#      weight: 8
