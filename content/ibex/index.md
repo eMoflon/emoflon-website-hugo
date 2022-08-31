@@ -42,9 +42,11 @@ Based on the formal graph transformation framework, TGGs provide strong guarante
 - Complex attribute conditions
 - Least-change propagations (only absolutly necessary deletions are performed during synchronisation)
 - (Optional) Support for Integer Linear Programming (ILP) to find optimal solutions
-  
+   
 ## Download
-TODO
+
+Check out our [download page](../download#emoflonibex) to download latest versions of eMoflon::IBeX.
+
 ## Develop
 TODO
 ## Support

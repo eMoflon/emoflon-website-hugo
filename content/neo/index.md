@@ -16,3 +16,8 @@ eNeo also supports an API to automate all these tasks programmatically.
 
 eMoflon::Neo is licensed open source under EPL 1.0.
 Its source code is available on [GitHub](https://github.com/eMoflon/emoflon-neo).
+
+
+## Download
+
+Check out our [download page](../download#emoflonneo) to download latest versions of eMoflon::Neo.
