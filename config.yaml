@@ -2,7 +2,7 @@ baseURL: https://maxkratz.github.io/emoflon-website-deploy
 languageCode: en-us
 defaultContentLanguage: en
 title: eMoflon Project Site
-theme: cayman-hugo-theme
+theme: ["hugo-cloak-email", "cayman-hugo-theme"]
 
 # Syntax highlighting
 pygmentsCodefences: true
