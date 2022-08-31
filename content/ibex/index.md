@@ -6,7 +6,18 @@ draft: true
 
 {{< img src="/img/eMoflonLogoIbex.png" alt="" width="30%" >}}
 
-**eMoflon::IBeX** is a model-driven software engineering tool suite. As such, eMoflon supports the automatic creation of Java software artifacts from [Ecore](https://www.eclipse.org/modeling/emf/) specifiations. Our code generator (SmartEMF) is based on our own custom implementation of [EMF](https://www.eclipse.org/modeling/emf/), which resolves many EMF legacy issues and is tuned for high performance. As its core functionality, eMoflon provides a powerful model transformation engine, which enables unidirectional model transformations (eMoflon::IBeX-GT) and bidirectional model transformations (eMoflon::IBeX-TGG).
+**eMoflon::IBeX** is an open source tool suite to implement incremental model transformations using the formally founded notion of graph transformations. Graph transformations are a declarative and rule-based way to define how a graph (our model) changes. Usually, this is done by writing transformation rules that describe preconditions, i.e., patterns that state when a rule should be applied, and postconditions that state how the rule will change our model.
+eMoflon::IBeX then generates code that implements your rules ensuring that they are only applied on appropriate locations. Above that, we employ state-of-the-art incremental graph pattern matching techniques to react to model changes promptly and efficiently. Note that our tool is released as an [Eclipse](https://www.eclipse.org) plugin and makes use of the [Eclipse Modelling Framework (EMF)](https://www.eclipse.org/modeling/emf/) to design and represent (meta-)models.
+Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](#emoflonibex-tgg). The first lets you implement generic model transformations in a unidirectional way. The latter enables you to implement different bidirectional model transformations to restore consistency between two models from one sole specification, e.g., synchronisers and translators.
+
+## Feature Overview
+- EMF-based
+- Eclipse plugin
+- Open source
+- Unidirectional and bidirectional model transformations
+- SmartEMF – High-performance EMF reimplementation complying with EMF interfaces
+- Using state-of-the-art graph pattern matching engines
+- (Optional) Using different Integer Linear Problem (ILP) solvers to guarantee optimality
 
 
 | {{< img src="/img/Ecore2Java.png" alt="" width="125%" >}} | {{< img src="/img/GTRule.png" alt="" width="100%" >}}  | {{< img src="/img/TGG.png" alt="" width="100%" >}} |
