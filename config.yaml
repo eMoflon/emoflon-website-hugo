@@ -68,8 +68,8 @@ menu:
     - name: "eMoflon::Neo"
       url: /neo/
       weight: 3
-    - name: "In Action"
-      url: /action/
+    - name: "Getting Started"
+      url: /getting-started/
       weight: 4
     - name: "Development"
       url: /dev/
