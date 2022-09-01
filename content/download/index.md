@@ -4,9 +4,16 @@ date: 2022-07-20
 draft: true
 ---
 
+{{< toc >}}
+
+
 ## eMoflon::IBeX
 
-There are three ways to download eMoflon::IBeX.
+There are three ways to download eMoflon::IBeX:
+1. The [pre-built Eclipse application](#pre-built-eclipse-application)
+1. The [pre-build virtual machine](#pre-build-virtual-machine-vm)
+1. The [Eclipse uppdate site](#eclipse-update-site).
+
 We recommend the usage of our [pre-built Eclipse application](#pre-built-eclipse-application).
 
 ### Pre-built Eclipse Application
