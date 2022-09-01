@@ -4,7 +4,8 @@ date: 2022-07-18
 draft: true
 ---
 
-{{< img src="/img/eMoflonLogoIbex.png" alt="" width="30%" >}}
+| {{< toc >}} | {{< img src="/img/eMoflonLogoIbex.png" alt="" width="60%" >}} |
+|:---|---|
 
 **eMoflon::IBeX** is an open source tool suite to implement incremental model transformations using the formally founded notion of graph transformations. Graph transformations are a declarative and rule-based way to define how a graph (our model) changes. Usually, this is done by writing transformation rules that describe preconditions, i.e., patterns that state when a rule should be applied, and postconditions that state how the rule will change our model.
 eMoflon::IBeX then generates code that implements your rules ensuring that they are only applied on appropriate locations. Above that, we employ state-of-the-art incremental graph pattern matching techniques to react to model changes promptly and efficiently. Note that our tool is released as an [Eclipse](https://www.eclipse.org) plugin and makes use of the [Eclipse Modelling Framework (EMF)](https://www.eclipse.org/modeling/emf/) to design and represent (meta-)models.
