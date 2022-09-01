@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 date: 2022-09-01
-draft: true
+draft: false
 ---
 
 Over the years, **eMoflon** has been applied in diverse application scenarios and domains.
