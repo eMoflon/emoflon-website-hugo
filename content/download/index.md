@@ -7,6 +7,7 @@ draft: true
 {{< toc >}}
 
 
+___
 ## eMoflon::IBeX
 
 There are three ways to download eMoflon::IBeX:
@@ -38,6 +39,7 @@ You can use our [Eclipse update site](https://emoflon.org/emoflon-ibex-updatesit
 - Keep in mind that you have to use the Eclipse Modeling tools with a few plug-ins. Please check out the installation instructions in our [GitHub repository](https://github.com/eMoflon/emoflon-ibex#how-to-develop).
 
 
+___
 ## eMoflon::Neo
 
 You can use our [Eclipse update site](https://github.com/eMoflon/emoflon-neo-updatesite) to install eMoflon::Neo as plug-in: [https://github.com/eMoflon/emoflon-neo-updatesite](https://github.com/eMoflon/emoflon-neo-updatesite).
