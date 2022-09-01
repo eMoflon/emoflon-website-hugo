@@ -46,6 +46,21 @@ jobs:
           name: public-draft
           path: public/
 
+  check-urls-prod:
+    needs: [hugo-build]
+    runs-on: [ubuntu-20.04]
+    steps:
+      - name: Download Hugo build
+        uses: actions/download-artifact@v2
+        with:
+          name: public-prod
+      - name: Docker setup
+        run: |
+          docker pull wjdp/htmltest:latest
+      - name: Run htmltest
+        run: |
+          docker run --rm -v $PWD:/test wjdp/htmltest:latest
+
   deploy-prod:
     needs: [hugo-build]
     runs-on: [ubuntu-20.04]
