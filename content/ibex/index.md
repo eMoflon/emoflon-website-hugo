@@ -54,6 +54,7 @@ Based on the formal graph transformation framework, TGGs provide strong guarante
 - Homogeneous and heterogeneous transformations
 - Complex attribute conditions
 - Least-change propagations (only necessary modifications are performed during synchronisation)
+- State-of-the-art conflict detection for concurrent changes
 - (Optional) Support for Integer Linear Programming (ILP) to find optimal solutions
 
 ### Operational Strategies
