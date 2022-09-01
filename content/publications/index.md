@@ -24,7 +24,7 @@ Lars Fritsche, Jens Kosiol, Andy Schürr, Garbiele Taentzer.
 
 ### 2020
 - [**"GrapeL: Combining Graph Pattern Matching and Complex Event Processing"**](https://link.springer.com/content/pdf/10.1007/978-3-030-58167-1.pdf). \
-Sebastian Ehmes, Lars Fritsche, Konrad Altenhofen, Önder Babur, Joachim Denil.
+Sebastian Ehmes, Lars Fritsche, Konrad Altenhofen.
 - [**"A precedence-driven approach for concurrent model synchronization scenarios using triple graph grammars"**](https://doi.org/10.1145/3426425.3426931). \
 Lars Fritsche, Jens Kosiol, Adrian Möller, Andy schürr, Gabriele Taentzer.
 - [**"A search-based and fault-tolerant approach to concurrent model synchronisation"**](https://doi.org/10.1145/3426425.3426932). \
