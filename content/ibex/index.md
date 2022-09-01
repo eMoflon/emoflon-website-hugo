@@ -7,9 +7,9 @@ draft: true
 | {{< toc >}} | {{< img src="/img/emoflon_logo_ibex.png" alt="" width="60%" >}} |
 |:---|---|
 
-**eMoflon::IBeX** is an open source tool suite to implement incremental model transformations using the formally founded notion of graph transformations. Graph transformations are a declarative and rule-based way to define how a graph (our model) changes. Usually, this is done by writing transformation rules that describe preconditions, i.e., patterns that state when a rule should be applied, and postconditions that state how the rule will change our model.
-eMoflon::IBeX then generates code that implements your rules ensuring that they are only applied on appropriate locations. Above that, we employ state-of-the-art incremental graph pattern matching techniques to react to model changes promptly and efficiently. Note that our tool is released as an [Eclipse](https://www.eclipse.org) plugin and makes use of the [Eclipse Modelling Framework (EMF)](https://www.eclipse.org/modeling/emf/) to design and represent (meta-)models.
-Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](#emoflonibex-tgg). The first lets you implement generic model transformations in a unidirectional way. The latter enables you to implement different bidirectional model transformations to restore consistency between two models from one sole specification, e.g., synchronisers and translators.
+**eMoflon::IBeX** is an open source tool suite to implement incremental model transformations formally based on the notion of graph transformations. Graph transformations are a declarative and rule-based way to define how a graph (our model) changes. Usually, this is done by writing transformation rules that describe preconditions, i.e., patterns that state when a rule should be applied, and postconditions that state how the rule will change our model.
+eMoflon::IBeX then generates code that implements your rules ensuring that they are only applied on appropriate locations. In addition to that, we employ state-of-the-art incremental graph pattern matching techniques to react to model changes promptly and efficiently. Note that our tool is released as an [Eclipse](https://www.eclipse.org) plugin and makes use of the [Eclipse Modelling Framework (EMF)](https://www.eclipse.org/modeling/emf/) to design and visualize (meta-)models.
+Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](#emoflonibex-tgg). The former lets you implement generic model transformations in a unidirectional way. The latter enables you to implement different bidirectional model transformations to restore consistency between two models from one sole specification, e.g., synchronisers and translators.
 
 ## Feature Overview
 - EMF-based
@@ -17,8 +17,8 @@ Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](
 - Open source
 - Unidirectional and bidirectional model transformations
 - SmartEMF – High-performance EMF reimplementation complying with EMF interfaces
-- Using [HiPE](https://github.com/HiPE-DevOps/HiPE-Updatesite) a highly parallelized state-of-the-art graph pattern matching engine
-- (Optional) Using different Integer Linear Problem (ILP) solvers to guarantee optimality
+- [HiPE](https://github.com/HiPE-DevOps/HiPE-Updatesite) – a highly parallelized state-of-the-art graph pattern matching engine
+- (Optional) A selection of different Integer Linear Problem (ILP) solvers to guarantee optimality
 
 
 | {{< img src="/img/ecore2java.png" alt="" width="125%" >}} | {{< img src="/img/gt_rule.png" alt="" width="100%" >}}  | {{< img src="/img/tgg.png" alt="" width="100%" >}} |
@@ -28,7 +28,7 @@ Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](
 
 ## eMoflon::IBeX-GT
 **eMoflon::IBeX-GT** lets you implement unidirectional model transformations by specifying declarative graph transformation rules.
-These rules consist of a pattern that has to be found in a model for the rule to be applicable and the actions that are to be performed when this pattern is matched, e.g., creating and deletings elements or modifying their attributes.
+These rules consist of (1) a pattern that has to be found in a model for the rule to be applicable and (2) the actions that are to be performed when this pattern is matched, e.g., creating and deletings elements or modifying their attributes.
 Using the rule specification, eMoflon::IBeX-GT generates a Java API to execute the model transformations, while guaranteeing that each rule acts according to its specification.
 Besides that, you can also use **eMoflon::IBeX-GT** to search for patterns in a model without applying any changes to them.
 
@@ -38,7 +38,7 @@ Besides that, you can also use **eMoflon::IBeX-GT** to search for patterns in a 
 - Automatic creation of a Java API implementing your patterns and rules
 - Complex attribute conditions
 - Arithmetic expressions
-- Specifying complex preconditions by combining patterns
+- Specifying complex preconditions by combining patterns (Negative and Positive Application Conditions)
 - Stochastic graph transformations where each rule executes according to a custom propability function
 
 ## eMoflon::IBeX-TGG
@@ -51,6 +51,7 @@ Based on the formal graph transformation framework, TGGs provide strong guarante
 ### Feature Overview
 
 - Textual language for defining TGGs
+- Automatic creation of a Java API implementing your TGG
 - Homogeneous and heterogeneous transformations
 - Complex attribute conditions
 - Least-change propagations (only necessary modifications are performed during synchronisation)
