@@ -17,7 +17,7 @@ Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](
 - Open source
 - Unidirectional and bidirectional model transformations
 - SmartEMF – High-performance EMF reimplementation complying with EMF interfaces
-- Using state-of-the-art graph pattern matching engines
+- Using [HiPE](https://github.com/HiPE-DevOps/HiPE-Updatesite) a highly parallelized state-of-the-art graph pattern matching engine
 - (Optional) Using different Integer Linear Problem (ILP) solvers to guarantee optimality
 
 
@@ -27,19 +27,19 @@ Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](
 
 
 ## eMoflon::IBeX-GT
-
-eMoflon::IBeX-GT provides graph pattern matching functionality and serves as an interpreter for graph transformation rules for unidirectional model transformation purposes. To facilitate efficient computation of consecutive model transformations, eMoflon uses the highly parallelized incremental graph pattern matcher [HiPE](https://github.com/HiPE-DevOps/HiPE-Updatesite).
-
-
+**eMoflon::IBeX-GT** lets you implement unidirectional model transformations by specifying declarative graph transformation rules.
+These rules consist of a pattern that has to be found in a model for the rule to be applicable and the actions that are to be performed when this pattern is matched, e.g., creating and deletings elements or modifying their attributes.
+Using the rule specification, eMoflon::IBeX-GT generates a Java API to execute the model transformations, while guaranteeing that each rule acts according to its specification.
+Besides that, you can also use **eMoflon::IBeX-GT** to search for patterns in a model without applying any changes to them.
 
 ### Feature Overview
 
-- Domain specific language (DSL): Defining graph patterns and graph transformation rules
-- Code generator: Automatic creation of a Java API based on the given DSL specification and a given Ecore-metamodel
-- Graph pattern matching: HiPE is a Rete-inspired actor-based incremental graph pattern matcher
-- Unidirectional model transformation: Graph transformation rules specify preconditions and postconditions
-- EMF-based
-
+- Textual language for defining graph patterns and graph transformation rules
+- Automatic creation of a Java API implementing your patterns and rules
+- Complex attribute conditions
+- Arithmetic expressions
+- Specifying complex preconditions by combining patterns
+- Stochastic graph transformations where each rule executes according to a custom propability function
 
 ## eMoflon::IBeX-TGG
 
@@ -50,21 +50,20 @@ Based on the formal graph transformation framework, TGGs provide strong guarante
 
 ### Feature Overview
 
-- EMF-based
 - Textual language for defining TGGs
 - Homogeneous and heterogeneous transformations
 - Complex attribute conditions
-- Least-change propagations (only absolutly necessary deletions are performed during synchronisation)
+- Least-change propagations (only necessary modifications are performed during synchronisation)
 - (Optional) Support for Integer Linear Programming (ILP) to find optimal solutions
 
 ### Operational Strategies
 
-- **Model Generation**: Generate pairs of consistent models
-- **Batch Translation**: Translate a model to obtain the opposite one
-- **Sequential Synchronisation**: Changes are propagated from one model to another without conflict detection
-- **Concurrent Synchronisation**: Synchronisation between two models with conflict detection
-- **Consistency Check**: Determine which elements correspond to another for two models
-- **Check Only**: Determine whether a pair of models is consistent w.r.t. TGG
+- **Model Generation** Generate pairs of consistent models
+- **Batch Translation** Translate a model to obtain the opposite one
+- **Sequential Synchronisation** Changes are propagated from one model to another without conflict detection
+- **Concurrent Synchronisation** Synchronisation between two models with conflict detection
+- **Consistency Check** Determine which elements correspond to another for two models
+- **Check Only** Determine whether a pair of models is consistent w.r.t. TGG
 
 
 ## Download
