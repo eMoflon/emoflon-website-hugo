@@ -4,7 +4,7 @@ date: 2022-07-18
 draft: true
 ---
 
-| {{< toc >}} | {{< img src="/img/eMoflonLogoIbex.png" alt="" width="60%" >}} |
+| {{< toc >}} | {{< img src="/img/emoflon_logo_ibex.png" alt="" width="60%" >}} |
 |:---|---|
 
 **eMoflon::IBeX** is an open source tool suite to implement incremental model transformations using the formally founded notion of graph transformations. Graph transformations are a declarative and rule-based way to define how a graph (our model) changes. Usually, this is done by writing transformation rules that describe preconditions, i.e., patterns that state when a rule should be applied, and postconditions that state how the rule will change our model.
@@ -21,7 +21,7 @@ Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](
 - (Optional) Using different Integer Linear Problem (ILP) solvers to guarantee optimality
 
 
-| {{< img src="/img/Ecore2Java.png" alt="" width="125%" >}} | {{< img src="/img/GTRule.png" alt="" width="100%" >}}  | {{< img src="/img/TGG.png" alt="" width="100%" >}} |
+| {{< img src="/img/ecore2java.png" alt="" width="125%" >}} | {{< img src="/img/gt_rule.png" alt="" width="100%" >}}  | {{< img src="/img/tgg.png" alt="" width="100%" >}} |
 |:-------------------:|:-----------------------------------:|:-----------------------------------:|
 | Java code generator | Unidirectional model transformation | Bidirectional model transformations |
 

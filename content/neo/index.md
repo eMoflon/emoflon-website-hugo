@@ -5,7 +5,7 @@ draft: true
 ---
 
 <!-- Copy-pasted from the old eMoflon webpage -->
-{{< img src="/img/eMoflonLogoENeo.png" alt="" width="28%" >}}
+{{< img src="/img/emoflon_logo_eneo.png" alt="" width="28%" >}}
 
 eNeo supports model management as a layer over Neo4j, a fairly well-known graph database.
 eNeo uses eMSL (the eMoflon Specification Language), a uniform modelling language for metamodelling and modelling, specifying patterns, graph constraints, rules, and triple graph grammars, all in the same uniform textual syntax with advanced support for modularity and reuse via refinement.
