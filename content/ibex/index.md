@@ -26,6 +26,7 @@ Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](
 | Java code generator | Unidirectional model transformation | Bidirectional model transformations |
 
 
+___
 ## eMoflon::IBeX-GT
 
 eMoflon::IBeX-GT provides graph pattern matching functionality and serves as an interpreter for graph transformation rules for unidirectional model transformation purposes. To facilitate efficient computation of consecutive model transformations, eMoflon uses the highly parallelized incremental graph pattern matcher [HiPE](https://github.com/HiPE-DevOps/HiPE-Updatesite).
@@ -41,6 +42,7 @@ eMoflon::IBeX-GT provides graph pattern matching functionality and serves as an 
 - EMF-based
 
 
+___
 ## eMoflon::IBeX-TGG
 
 **Triple Graph Grammars (TGGs)** are a declarative and rule-based technique to specify bidirectional model transformations.
@@ -67,6 +69,7 @@ Based on the formal graph transformation framework, TGGs provide strong guarante
 - **Check Only**: Determine whether a pair of models is consistent w.r.t. TGG
 
 
+___
 ## Download
 
 Check out our [download page](../download#emoflonibex) to download latest versions of eMoflon::IBeX.
