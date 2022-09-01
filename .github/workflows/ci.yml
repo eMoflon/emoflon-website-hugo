@@ -56,6 +56,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: public-prod
+          path: public
       - name: Docker setup
         run: |
           docker pull wjdp/htmltest:latest
