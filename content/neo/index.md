@@ -21,3 +21,8 @@ Its source code is available on [GitHub](https://github.com/eMoflon/emoflon-neo)
 ## Download
 
 Check out our [download page](../download#emoflonneo) to download latest versions of eMoflon::Neo.
+
+
+## Development
+
+Check out our [development page](../dev#emoflonneo) to set-up your eMoflon::Neo development workspace.

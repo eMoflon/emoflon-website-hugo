@@ -72,9 +72,9 @@ Based on the formal graph transformation framework, TGGs provide strong guarante
 Check out our [download page](../download#emoflonibex) to download latest versions of eMoflon::IBeX.
 
 
-## Develop
+## Development
 
-TODO
+Check out our [development page](../dev#emoflonibex) to set-up your eMoflon::IBeX development workspace.
 
 
 ## Support
