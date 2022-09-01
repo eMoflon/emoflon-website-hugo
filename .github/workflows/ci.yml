@@ -62,7 +62,6 @@ jobs:
           docker pull wjdp/htmltest:latest
       - name: Run htmltest
         run: |
-          ls -la
           docker run --rm -v $PWD:/test wjdp/htmltest:latest -c /test/.htmltest.yml /test/public
 
   deploy-prod:
