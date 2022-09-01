@@ -11,6 +11,8 @@ If you are using or have used eMoflon in a project, publication, lecture, or sim
 ## List of Publications
 
 ### 2022
+- [**"Graph-Based Specification and Automated Construction of ILP Problems"**](https://gcm2022.github.io/files/gcm2022-proceedings.pdf#page=5).\
+Sebastian Ehmes, Maximilian Kratz, Andy Schürr.
 - [**"Local Consistency Restoration Methods for Triple Graph Grammars"**](https://tuprints.ulb.tu-darmstadt.de/21443/). \
 Lars Fritsche.
 
