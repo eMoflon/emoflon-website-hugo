@@ -61,7 +61,8 @@ jobs:
           docker pull wjdp/htmltest:latest
       - name: Run htmltest
         run: |
-          docker run --rm -v $PWD:/test wjdp/htmltest:latest htmltest -c .htmltest
+          ls -la
+          docker run --rm -v $PWD:/test wjdp/htmltest:latest -c /test/.htmltest.yml /test/public
 
   deploy-prod:
     needs: [hugo-build, check-urls-prod]
