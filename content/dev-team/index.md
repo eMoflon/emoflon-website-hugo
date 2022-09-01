@@ -18,5 +18,5 @@ draft: true
 
 ## Former Developers
 
-- **Scientists**: Erhan Leblebici, Roland Speith (né Kluge), Gergely Varró, Antony Anjorin.
+- **Scientists**: [Erhan Leblebici](https://www.es.tu-darmstadt.de/es/ehemalige/erhan-leblebici), [Roland Speith (né Kluge)](https://www.es.tu-darmstadt.de/es/ehemalige/roland-speith-nee-kluge), [Gergely Varró](https://www.es.tu-darmstadt.de/es/team/gergely-varro), [Anthony Anjorin](https://www.es.tu-darmstadt.de/es/ehemalige/anthony-anjorin).
 - **Student developers**: Many student developers have worked on eMoflon.
