@@ -20,11 +20,11 @@ Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](
 - [HiPE](https://github.com/HiPE-DevOps/HiPE-Updatesite) – a highly parallelized state-of-the-art graph pattern matching engine
 - (Optional) A selection of different Integer Linear Problem (ILP) solvers to guarantee optimality
 
-
+<!---
 | {{< img src="/img/ecore2java.png" alt="" width="125%" >}} | {{< img src="/img/gt_rule.png" alt="" width="100%" >}}  | {{< img src="/img/tgg.png" alt="" width="100%" >}} |
 |:-------------------:|:-----------------------------------:|:-----------------------------------:|
 | Java code generator | Unidirectional model transformation | Bidirectional model transformations |
-
+--->
 
 ___
 ## eMoflon::IBeX-GT
