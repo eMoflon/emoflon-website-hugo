@@ -19,4 +19,4 @@ draft: true
 ## Former Developers
 
 - **Scientists**: [Erhan Leblebici](https://www.es.tu-darmstadt.de/es/ehemalige/erhan-leblebici), [Roland Speith (né Kluge)](https://www.es.tu-darmstadt.de/es/ehemalige/roland-speith-nee-kluge), [Gergely Varró](https://www.es.tu-darmstadt.de/es/team/gergely-varro), [Anthony Anjorin](https://www.es.tu-darmstadt.de/es/ehemalige/anthony-anjorin).
-- **Student developers**: Many student developers have worked on eMoflon.
+- **Student developers**: Tobias Niehues, Isabella Nunes Grieser, Adrian Möller, Marek Daniv, Nicolas Stahl (né Acero), Mario Treiber, Jannik Hinz, Patrick Robrecht, Robin Oppermann, Sascha Zander, Anne-Sophie Ettl, Thomas Kovac, Alexander Schleich, Nico Wombacher, Lars Kliegel, Lukas Neumann, and many more.
