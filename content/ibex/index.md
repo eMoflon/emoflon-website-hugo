@@ -26,6 +26,7 @@ Our tool comes with two main components, namely [GT](#emoflonibex-gt) and [TGG](
 | Java code generator | Unidirectional model transformation | Bidirectional model transformations |
 
 
+___
 ## eMoflon::IBeX-GT
 **eMoflon::IBeX-GT** lets you implement unidirectional model transformations by specifying declarative graph transformation rules.
 These rules consist of (1) a pattern that has to be found in a model for the rule to be applicable and (2) the actions that are to be performed when this pattern is matched, e.g., creating and deletings elements or modifying their attributes.
@@ -41,6 +42,7 @@ Besides that, you can also use **eMoflon::IBeX-GT** to search for patterns in a 
 - Specifying complex preconditions by combining patterns (Negative and Positive Application Conditions)
 - Stochastic graph transformations where each rule executes according to a custom propability function
 
+___
 ## eMoflon::IBeX-TGG
 
 **Triple Graph Grammars (TGGs)** are a declarative and rule-based technique to specify bidirectional model transformations.
@@ -68,6 +70,7 @@ Based on the formal graph transformation framework, TGGs provide strong guarante
 - **Check Only** Determine whether a pair of models is consistent w.r.t. TGG
 
 
+___
 ## Download
 
 Check out our [download page](../download#emoflonibex) to download latest versions of eMoflon::IBeX.
