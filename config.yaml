@@ -16,7 +16,7 @@ permalinks:
 
 params:
   # Header text, can be markdown
-  project_name: "![](img/eMoflonLogoWithTex_semitransparent_300px.png)"
+  project_name: "![](img/emoflon_logo_with_tex_semitransparent_300px.png)"
   project_tagline: "**eMoflon** is a tool suite for Model-Driven Engineering (MDE) that provides a range of visual and formal languages for (meta)modelling and model management."
   project_tagline_sub: "eMoflon currently consists of the following tools, which all share a common foundation based on graph pattern matching and graph transformations:"
 
