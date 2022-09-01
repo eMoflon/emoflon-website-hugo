@@ -1,7 +1,7 @@
 ---
 title: "Contact"
-date: 2022-07-31
-draft: true
+date: 2022-09-01
+draft: false
 ---
 
 You can send us an [email](https://www.es.tu-darmstadt.de/forschung/meta-modeling-model-transformations/emoflon#c2590).

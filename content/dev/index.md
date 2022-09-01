@@ -1,7 +1,7 @@
 ---
 title: "Development"
-date: 2022-07-18
-draft: true
+date: 2022-09-01
+draft: false
 ---
 
 The source code of **eMoflon** is available at our [GitHub organization](https://github.com/eMoflon).

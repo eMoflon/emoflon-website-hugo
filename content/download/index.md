@@ -1,7 +1,7 @@
 ---
 title: "Download"
-date: 2022-07-20
-draft: true
+date: 2022-09-01
+draft: false
 ---
 
 {{< toc >}}
