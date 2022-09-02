@@ -1,7 +1,7 @@
 ---
 title: "Download"
-date: 2022-07-20
-draft: true
+date: 2022-09-01
+draft: false
 ---
 
 {{< toc >}}
@@ -10,7 +10,7 @@ draft: true
 ___
 ## eMoflon::IBeX
 
-There are three ways to download eMoflon::IBeX:
+There are three ways to download **eMoflon::IBeX**:
 1. The [pre-built Eclipse application](#pre-built-eclipse-application)
 1. The [pre-build virtual machine](#pre-build-virtual-machine-vm)
 1. The [Eclipse uppdate site](#eclipse-update-site).
@@ -23,8 +23,8 @@ You can download the latest version of our pre-built Eclipse application from th
 
 There are several versions available for **Windows**, **Linux**, and **macOS**:
 
-- **Eclipse eMoflon user**: Version with pre-installed eMoflon::IBeX as plug-in. You can use this version to develop your own applications/tools that use eMoflon::IBeX.
-- **Eclipse eMoflon dev**: Version without pre-installed eMoflon::IBeX. This one can be used to develop eMoflon::IBeX itself.
+- **Eclipse eMoflon user**: Version with pre-installed **eMoflon::IBeX** as plug-in. You can use this version to develop your own applications/tools that use **eMoflon::IBeX**.
+- **Eclipse eMoflon dev**: Version without pre-installed **eMoflon::IBeX**. This one can be used to develop **eMoflon::IBeX** itself.
 
 ### Pre-build Virtual Machine (VM)
 
@@ -34,7 +34,7 @@ Unfortunately, we aren't able to release the whole OVA image as one file on GitH
 
 ### Eclipse Update Site
 
-You can use our [Eclipse update site](https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/) to install eMoflon::IBeX as plug-in: [https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/](https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/)
+You can use our [Eclipse update site](https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/) to install **eMoflon::IBeX** as plug-in: [https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/](https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/)
 
 - Keep in mind that you have to use the Eclipse Modeling tools with a few plug-ins. Please check out the installation instructions in our [GitHub repository](https://github.com/eMoflon/emoflon-ibex#how-to-develop).
 
@@ -42,6 +42,6 @@ You can use our [Eclipse update site](https://emoflon.org/emoflon-ibex-updatesit
 ___
 ## eMoflon::Neo
 
-You can use our [Eclipse update site](https://github.com/eMoflon/emoflon-neo-updatesite) to install eMoflon::Neo as plug-in: [https://github.com/eMoflon/emoflon-neo-updatesite](https://github.com/eMoflon/emoflon-neo-updatesite).
+You can use our [Eclipse update site](https://github.com/eMoflon/emoflon-neo-updatesite) to install **eMoflon::Neo** as plug-in: [https://github.com/eMoflon/emoflon-neo-updatesite](https://github.com/eMoflon/emoflon-neo-updatesite).
 
 - Keep in mind that you have to use the Eclipse Modeling tools with a few plug-ins. Please check out the installation instructions in our [GitHub repository](https://github.com/eMoflon/emoflon-neo-updatesite#emoflon-neo-updatesite).
