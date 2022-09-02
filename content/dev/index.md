@@ -1,7 +1,7 @@
 ---
 title: "Development"
-date: 2022-07-18
-draft: true
+date: 2022-09-01
+draft: false
 ---
 
 **eMoflon** is developed jointly at the [Ream-Time Systems Lab, TU Darmstadt](https://www.es.tu-darmstadt.de/en/) (TUDa) and the [Database and Information Systems Group, Paderborn University](https://cs.uni-paderborn.de/en/dbis/startseite/) (UPB).

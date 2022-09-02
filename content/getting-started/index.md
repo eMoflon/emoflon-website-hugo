@@ -1,7 +1,7 @@
 ---
 title: "Getting started with eMoflon"
-date: 2022-07-18
-draft: true
+date: 2022-09-01
+draft: false
 ---
 
 ___
