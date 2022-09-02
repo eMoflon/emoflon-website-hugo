@@ -1,7 +1,7 @@
 ---
 title: "eMoflon::IBeX"
-date: 2022-07-18
-draft: true
+date: 2022-09-01
+draft: false
 ---
 
 | {{< toc >}} | {{< img src="/img/emoflon_logo_ibex.png" alt="" width="60%" >}} |

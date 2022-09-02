@@ -1,7 +1,7 @@
 ---
 title: "eMoflon::Neo"
-date: 2022-07-18
-draft: true
+date: 2022-09-01
+draft: false
 ---
 
 <!-- Copy-pasted from the old eMoflon webpage -->
