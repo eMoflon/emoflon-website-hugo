@@ -77,13 +77,13 @@ jobs:
       - name: Push build artifacts to deployment repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY_PROD }}
         with:
           source-directory: '.'
-          destination-github-username: 'maxkratz'
-          destination-repository-name: 'emoflon-website-deploy'
+          destination-github-username: 'eMoflon'
+          destination-repository-name: 'eMoflon.github.io'
           user-email: maximilian.kratz@es.tu-darmstadt.de
-          target-branch: main
+          target-branch: master
 
   deploy-testing:
     needs: [hugo-build]

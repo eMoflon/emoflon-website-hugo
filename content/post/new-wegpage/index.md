@@ -1,7 +1,7 @@
 ---
 title: "New Webpage"
-date: 2022-07-18
-draft: true
+date: 2022-09-02
+draft: false
 ---
 
-We launched the new eMoflon webpage today!
+We launched the new **eMoflon** webpage today!
