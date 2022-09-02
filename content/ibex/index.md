@@ -66,8 +66,8 @@ Based on the formal graph transformation framework, **TGGs** provide strong guar
 - **Batch Translation** Translate a model to obtain the opposite one
 - **Sequential Synchronisation** Changes are propagated from one model to another without conflict detection
 - **Concurrent Synchronisation** Synchronisation between two models with conflict detection
-- **Consistency Check** Determine which elements correspond to another for two models
-- **Check Only** Determine whether a pair of models is consistent w.r.t. TGG
+- **Consistency Check** Determine which elements correspond to another between both models
+- **Check Only** Determine whether a pair of models is consistent w.r.t. a TGG
 
 
 ___
