@@ -46,8 +46,26 @@ jobs:
           name: public-draft
           path: public/
 
-  deploy-prod:
+  check-urls-prod:
     needs: [hugo-build]
+    runs-on: [ubuntu-20.04]
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Download Hugo build
+        uses: actions/download-artifact@v2
+        with:
+          name: public-prod
+          path: public
+      - name: Docker setup
+        run: |
+          docker pull wjdp/htmltest:latest
+      - name: Run htmltest
+        run: |
+          docker run --rm -v $PWD:/test wjdp/htmltest:latest -c /test/.htmltest.yml /test/public
+
+  deploy-prod:
+    needs: [hugo-build, check-urls-prod]
     runs-on: [ubuntu-20.04]
     # Skip deploy job if branch is 'main'
     if: ${{ github.ref == 'refs/heads/main' }}
