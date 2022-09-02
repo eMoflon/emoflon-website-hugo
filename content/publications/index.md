@@ -6,7 +6,7 @@ draft: true
 
 Over the years, **eMoflon** has been applied in diverse application scenarios and domains.
 In the following, we provide a collection of relevant publications.
-If you are using or have used eMoflon in a project, publication, lecture, or similar, please contact us.
+If you are using or have used **eMoflon** in a project, publication, lecture, or similar, please contact us.
 
 ## List of Publications
 

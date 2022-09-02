@@ -9,10 +9,10 @@ draft: true
 
 ## Current Developers
 
-- [Nils Weidmann](https://cs.uni-paderborn.de/dbis/personal/arbeitsgruppe/mitarbeiter/nils-weidmann/visitenkarte/) (UPB, [eMoflon::Neo](../neo))
-- [Lars Fritsche](https://www.es.tu-darmstadt.de/es/team/lars-fritsche/) (TUDa, [eMoflon::IBeX](../ibex))
-- [Sebastian Ehmes](https://www.es.tu-darmstadt.de/es/team/sebastian-ehmes/) (TUDa, [eMoflon::IBeX](../ibex))
-- [Maximilian Kratz](https://www.es.tu-darmstadt.de/es/team/maximilian-kratz) (TUDa, [eMoflon::IBeX](../ibex))
+- [Nils Weidmann](https://cs.uni-paderborn.de/dbis/personal/arbeitsgruppe/mitarbeiter/nils-weidmann/visitenkarte/) (UPB, **[eMoflon::Neo](../neo)**)
+- [Lars Fritsche](https://www.es.tu-darmstadt.de/es/team/lars-fritsche/) (TUDa, **[eMoflon::IBeX](../ibex)**)
+- [Sebastian Ehmes](https://www.es.tu-darmstadt.de/es/team/sebastian-ehmes/) (TUDa, **[eMoflon::IBeX](../ibex)**)
+- [Maximilian Kratz](https://www.es.tu-darmstadt.de/es/team/maximilian-kratz) (TUDa, **[eMoflon::IBeX](../ibex)**)
 - Adrian Möller and many other student developers.
 
 
