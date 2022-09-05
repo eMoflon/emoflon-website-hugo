@@ -6,6 +6,7 @@ site_header: "![](/img/emoflon_logo_with_tex_semitransparent_100px.png)"
 ---
 
 **eMoflon** is developed jointly at the [Ream-Time Systems Lab, TU Darmstadt](https://www.es.tu-darmstadt.de/en/) (TUDa) and the [Database and Information Systems Group, Paderborn University](https://cs.uni-paderborn.de/en/dbis/startseite/) (UPB).
+Feel free to [contact us](../contact).
 
 
 ## Current Developers
