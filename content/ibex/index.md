@@ -2,6 +2,7 @@
 title: "eMoflon::IBeX"
 date: 2022-09-01
 draft: false
+site_header: "![](/img/emoflon_logo_with_tex_semitransparent_100px.png)"
 ---
 
 | {{< toc >}} | {{< img src="/img/emoflon_logo_ibex.png" alt="" width="60%" >}} |

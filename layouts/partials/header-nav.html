@@ -1,10 +1,10 @@
 <section class="page-header">
   <h1 class="project-name">
     {{ if not (isset site.Params "project_name") }}
-      {{ if (isset .Params "project_name") }}
-        {{ $.Params.project_name | markdownify }}
+      {{ if (isset .Params "site_header") }}
+        {{ $.Params.site_header | markdownify }}
       {{ else }}
-        site header goes here
+        errorf "Set site_header on page $.title" }}
       {{ end }}
     {{ else }}
       {{ $.Site.Params.project_name | default "project_name goes here" | markdownify }}

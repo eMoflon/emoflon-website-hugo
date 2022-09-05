@@ -2,6 +2,7 @@
 title: "Contact"
 date: 2022-09-01
 draft: false
+site_header: "![](/img/emoflon_logo_with_tex_semitransparent_100px.png)"
 ---
 
 You can send us an [email](https://www.es.tu-darmstadt.de/forschung/meta-modeling-model-transformations/emoflon#c2590).
