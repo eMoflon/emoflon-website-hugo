@@ -4,7 +4,7 @@
       {{ if (isset .Params "site_header") }}
         {{ $.Params.site_header | markdownify }}
       {{ else }}
-        errorf "Set site_header on page $.title" }}
+        {{ errorf "Set site_header on page $.title" }}
       {{ end }}
     {{ else }}
       {{ $.Site.Params.project_name | default "project_name goes here" | markdownify }}

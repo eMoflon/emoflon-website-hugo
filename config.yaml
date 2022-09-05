@@ -4,6 +4,8 @@ defaultContentLanguage: en
 title: eMoflon Project Site
 theme: ["hugo-cloak-email", "cayman-hugo-theme"]
 
+disableKinds: ["section"]
+
 # Syntax highlighting
 pygmentsCodefences: true
 pygmentsStyle: pygments
