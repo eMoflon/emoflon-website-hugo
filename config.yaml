@@ -4,19 +4,23 @@ defaultContentLanguage: en
 title: eMoflon Project Site
 theme: ["hugo-cloak-email", "cayman-hugo-theme"]
 
+disableKinds: ["section"]
+
 # Syntax highlighting
 pygmentsCodefences: true
 pygmentsStyle: pygments
 
 taxonomies:
-  tag: tags
+#  tag: tags
+# ^disables tag sub page generation
 
 permalinks:
   post: /:filename/
 
 params:
   # Header text, can be markdown
-  project_name: "![](/img/emoflon_logo_with_tex_semitransparent_300px.png)"
+#  project_name: "![](/img/emoflon_logo_with_tex_semitransparent_300px.png)"
+# ^use site-specific headers instead
   project_tagline: "**eMoflon** is a tool suite for Model-Driven Engineering (MDE) that provides a range of visual and textual languages for (meta)modelling and model management."
 
   # Theme customizations by us

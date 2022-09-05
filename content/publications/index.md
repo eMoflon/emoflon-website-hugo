@@ -2,6 +2,7 @@
 title: "Publications"
 date: 2022-09-01
 draft: false
+site_header: "![](/img/emoflon_logo_with_tex_semitransparent_100px.png)"
 ---
 
 Over the years, **eMoflon** has been applied in diverse application scenarios and domains.

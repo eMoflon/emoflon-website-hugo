@@ -2,6 +2,7 @@
 title: "Contact"
 date: 2022-09-01
 draft: false
+site_header: "![](/img/emoflon_logo_with_tex_semitransparent_100px.png)"
 ---
 
 You can send us an {{< cloakemail address="contact@emoflon.org" query="subject=Message from the emoflon.org webpage" display="email" >}}.
