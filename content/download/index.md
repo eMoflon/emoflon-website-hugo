@@ -12,7 +12,7 @@ ___
 
 There are three ways to download **eMoflon::IBeX**:
 1. The [pre-built Eclipse application](#pre-built-eclipse-application)
-1. The [pre-build virtual machine](#pre-build-virtual-machine-vm)
+1. The [pre-built virtual machine](#pre-built-virtual-machine-vm)
 1. The [Eclipse uppdate site](#eclipse-update-site).
 
 We recommend the usage of our [pre-built Eclipse application](#pre-built-eclipse-application).
@@ -26,7 +26,7 @@ There are several versions available for **Windows**, **Linux**, and **macOS**:
 - **Eclipse eMoflon user**: Version with pre-installed **eMoflon::IBeX** as plug-in. You can use this version to develop your own applications/tools that use **eMoflon::IBeX**.
 - **Eclipse eMoflon dev**: Version without pre-installed **eMoflon::IBeX**. This one can be used to develop **eMoflon::IBeX** itself.
 
-### Pre-build Virtual Machine (VM)
+### Pre-built Virtual Machine (VM)
 
 You can download the latest version of our pre-built virtual machine image from the [release section of our GitHub repository](https://github.com/eMoflon/emoflon-vm/releases).
 
