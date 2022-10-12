@@ -37,6 +37,7 @@ Unfortunately, we aren't able to release the whole OVA image as one file on GitH
 You can use our [Eclipse update site](https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/) to install **eMoflon::IBeX** as plug-in: [https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/](https://emoflon.org/emoflon-ibex-updatesite/snapshot/updatesite/)
 
 - Keep in mind that you have to use the Eclipse Modeling tools with a few plug-ins. Please check out the installation instructions in our [GitHub repository](https://github.com/eMoflon/emoflon-ibex#how-to-develop).
+- You need at least Eclipse 2022-09 to use **eMoflon::IBeX**.
 
 
 ___
