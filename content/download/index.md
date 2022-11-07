@@ -19,7 +19,7 @@ We recommend the usage of our [pre-built Eclipse application](#pre-built-eclipse
 
 ### Pre-built Eclipse Application
 
-You can download the latest version of our pre-built Eclipse application from the [release section of our GitHub repository](https://github.com/eMoflon/emoflon-eclipse-build/releases).
+You can download the latest version of our pre-built Eclipse application from the [release section of our GitHub repository](https://github.com/eMoflon/emoflon-ibex-eclipse-build/releases).
 
 There are several versions available for **Windows**, **Linux**, and **macOS**:
 
@@ -28,9 +28,9 @@ There are several versions available for **Windows**, **Linux**, and **macOS**:
 
 ### Pre-built Virtual Machine (VM)
 
-You can download the latest version of our pre-built virtual machine image from the [release section of our GitHub repository](https://github.com/eMoflon/emoflon-vm/releases).
+You can download the latest version of our pre-built virtual machine image from the [release section of our GitHub repository](https://github.com/eMoflon/emoflon-ibex-vm/releases).
 
-Unfortunately, we aren't able to release the whole OVA image as one file on GitHub. Therefore, you have to download all ZIP archive parts and extract them locally on your computer. You can find detailed installation instructions in the [README.md file](https://github.com/eMoflon/emoflon-vm#usageinstallation) within the repository.
+Unfortunately, we aren't able to release the whole OVA image as one file on GitHub. Therefore, you have to download all ZIP archive parts and extract them locally on your computer. You can find detailed installation instructions in the [README.md file](https://github.com/eMoflon/emoflon-ibex-vm#usageinstallation) within the repository.
 
 ### Eclipse Update Site
 
