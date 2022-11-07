@@ -5,3 +5,6 @@ CheckScripts: false
 IgnoreAltMissing: true
 IgnoreURLs:
   - "emoflon.org"
+HTTPHeaders:
+  "User-Agent": "chrome"
+  "accept-encoding": "deflate"
