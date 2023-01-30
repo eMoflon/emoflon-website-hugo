@@ -1,10 +1,11 @@
 ---
 title: "eMoflon::Neo"
-date: 2022-09-01
+date: 2023-01-30
 draft: false
 ---
 
 <!-- Copy-pasted from the old eMoflon webpage -->
+<!-- The image has a slightly larger size compared to IBeX. -->
 {{< img src="/img/emoflon_logo_eneo.png" alt="" width="28%" >}}
 
 **eNeo** supports model management as a layer over Neo4j, a fairly well-known graph database.
@@ -12,15 +13,24 @@ draft: false
 **eNeo** provides an export of models (with all referenced metamodels) to Neo4j, as well as an export of patterns, constraints, rules, and triple rules to Cypher, the query and transformation language used by Neo4j.
 **eNeo** also supports an API to automate all these tasks programmatically.
 
-<!-- The image has a slightly larger size compared to IBeX. -->
-
 **eMoflon::Neo** is licensed open source under EPL 1.0.
 Its source code is available on [GitHub](https://github.com/eMoflon/emoflon-neo).
+
+
+___
+## Videos
+
+- **MDE Net training session** (2022-10) on YouTube: [Anthony Anjorin on **eMoflon::Neo**](https://www.youtube.com/watch?v=zK1hRkVedvg)
 
 
 ## Download
 
 Check out our [download page](../download#emoflonneo) to download latest versions of **eMoflon::Neo**.
+
+
+## Getting Started
+
+Check out our [getting started page](../getting-started#emoflonneo) to get started with **eMoflon::Neo**.
 
 
 ## Development
