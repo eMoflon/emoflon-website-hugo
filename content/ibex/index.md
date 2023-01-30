@@ -1,6 +1,6 @@
 ---
 title: "eMoflon::IBeX"
-date: 2022-09-01
+date: 2023-01-30
 draft: false
 ---
 
@@ -74,6 +74,11 @@ ___
 ## Download
 
 Check out our [download page](../download#emoflonibex) to download latest versions of **eMoflon::IBeX**.
+
+
+## Getting Started
+
+Check out our [getting started page](../getting-started#emoflonibex) to get started with **eMoflon::IBeX**.
 
 
 ## Development

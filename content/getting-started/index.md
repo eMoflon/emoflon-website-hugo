@@ -1,6 +1,6 @@
 ---
 title: "Getting started with eMoflon"
-date: 2022-09-01
+date: 2023-01-30
 draft: false
 ---
 
@@ -15,4 +15,8 @@ If you encounter any issues with the tutorial, feel free to open an [issue on Gi
 ___
 ## eMoflon::Neo
 
-To get started with **eMoflon::Neo**, you can use our [tutorials](https://github.com/eMoflon/emoflon-neo-updatesite) together with the [pre-built eMoflon::Neo Eclipse application](../download/#pre-built-eclipse-application-neo).
+To get started with **eMoflon::Neo**, you can use our tutorials together with the [pre-built eMoflon::Neo Eclipse application](../download/#pre-built-eclipse-application-neo).
+Currently, there are the following tutorials available:
+- [(Meta-)Modeling with **eMoflon::Neo**](https://paper.dropbox.com/doc/Meta-Modelling-with-eNeo-jKeVQDlC2BAdD0TDQuF0I)
+- [Graph Transformation (GT) with **eMoflon::Neo**](https://paper.dropbox.com/doc/Model-Transformation-via-Graph-Transformation-with-eNeo--BxnuRQs4RPsdh1dj6CTLPClPAg-z2dkcPjjgz5nQem9CXR5m)
+- [Triple Graph Grammars (TGGs) with **eMoflon::Neo**](https://paper.dropbox.com/doc/Consistency-Management-via-Triple-Graph-Grammars-with-eNeo--Bxl1bjrPyb4shF3IhRaqJWtSAg-TimuK2t1cq3SqazufqdZv)
