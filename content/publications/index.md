@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date: 2022-12-23
+date: 2023-08-10
 draft: false
 ---
 
@@ -9,6 +9,10 @@ In the following, we provide a collection of relevant publications.
 If you are using or have used **eMoflon** in a project, publication, lecture, or similar, please contact us.
 
 ## List of Publications
+
+### 2023
+- [**"Advanced Consistency Restoration with Higher-Order Short-Cut Rules"**](https://doi.org/10.1007/978-3-031-36709-0_10).\
+Lars Fritsche, Jens Kosiol, Adrian Möller, Andy Schürr.
 
 ### 2022
 - [**"Graph-Based Specification and Automated Construction of ILP Problems"**](http://dx.doi.org/10.4204/EPTCS.374.3).\
@@ -68,4 +72,4 @@ Sven Patzina, Lars Patzina.
 
 ### 2011
 - [**"eMoflon: Leveraging EMF and Professional CASE Tools."**](https://cs.emis.de/LNI/Proceedings/Proceedings192/281.pdf). \
-Anthony Anjorin, Marius Lauder, Sven Patzinay, Andy Schürr.
+Anthony Anjorin, Marius Lauder, Sven Patzina, Andy Schürr.
