@@ -34,12 +34,12 @@ Nils Weidmann, Anthony Anjorin.
 - [**"Stochastic Graph Transformation For Social Network Modeling"**](https://arxiv.org/pdf/2112.11034v1). \
 Nicolas Behr, Bello Shehu Bello, Sebastian Ehmes, Reiko Heckel.
 - [**"Avoiding unnecessary information loss: correct and efficient model synchronization based on triple graph grammars"**](https://doi.org/10.1007/s10009-020-00588-7). \
-Lars Fritsche, Jens Kosiol, Andy Schürr, Garbiele Taentzer.
+Lars Fritsche, Jens Kosiol, Andy Schürr, Gabriele Taentzer.
 - [**"Schema Compliant Consistency Management via Triple Graph Grammars and Integer Linear Programming"**](https://doi.org/10.1007/s00165-021-00557-0). \
 Nils Weidmann, Anthony Anjorin.
 - [**"Automating Model Transformations for Railway Systems Engineering"**](http://dx.doi.org/10.5381/jot.2021.20.3.a10). \
 Nils Weidmann, Shubhangi Salunkhe, Anthony Anjorin, Enes Yigitbas, Gregor Engels.
-- [**"Concurrent model synchronisation with multiple objectives"**]https://doi.org/10.1145/3449639.3459283. \
+- [**"Concurrent model synchronisation with multiple objectives"**](https://doi.org/10.1145/3449639.3459283). \
 Nils Weidmann, Gregor Engels.
 
 ### 2020
@@ -54,7 +54,7 @@ Nils Weidmann, Anthony Anjorin.
 - [**"A Model-Driven Mutation Framework for Validation of Test Case Migration"**](https://doi.org/10.1007/978-3-030-58167-1_2). \
 Ivan Jovanovikj, Nils Weidmann, Enes Yigitbas, Anthony Anjorin, Stefan Sauer, Gregor Engels.
 - [**"Automating test schedule generation with domain-specific languages: a configurable, model-driven approach"**](https://doi.org/10.1145/3365438.3410991). \
-Athony Anjorin, Nils Weidmann, Robin Oppermann, Lars Fritsche, Andy Schürr.
+Anthony Anjorin, Nils Weidmann, Robin Oppermann, Lars Fritsche, Andy Schürr.
 - [**"VICToRy: Visual Interactive Consistency Management in Tolerant Rule-based Systems"**](https://doi.org/10.4204/EPTCS.330.1). \
 Nils Weidmann, Anthony Anjorin, James Cheney.
 
@@ -85,21 +85,21 @@ Nils Weidmann.
 Lars Fritsche, Erhan Leblebici, Anthony Anjorin, Andy Schürr.
 
 ### 2014
-- [**"Developing eMoflon with eMoflon."**](https://doi.org/10.1007/978-3-319-08789-4_10). \
+- [**"Developing eMoflon with eMoflon"**](https://doi.org/10.1007/978-3-319-08789-4_10). \
 Erhan Leblebici, Anthony Anjorin, Andy Schürr.
 - [**"Synchronization of Models on Different Abstraction Levels using Triple Graph Grammars"**](https://tuprints.ulb.tu-darmstadt.de/4399/). \
 Anthony Anjorin.
-- [**"A Comparison of Incremental Triple Graph Grammar Tools."**](https://journal.ub.tu-berlin.de/eceasst/article/view/939). \
+- [**"A Comparison of Incremental Triple Graph Grammar Tools"**](https://journal.ub.tu-berlin.de/eceasst/article/view/939). \
 Erhan Leblebici, Anthony Anjorin, Andy Schürr, Stephan Hildebrandt, Jan Rieke, Joel Greenyer.
 
 ### 2013
-- [**"A Survey of Triple Graph Grammar Tools."**](https://journal.ub.tu-berlin.de/eceasst/article/view/865/0). \
+- [**"A Survey of Triple Graph Grammar Tools"**](https://journal.ub.tu-berlin.de/eceasst/article/view/865/0). \
 Stephan Hildebrandt, Leen Lambers, Holger Giese, Jan Rieke, Joel Greenyer, Wilhelm Schäfer, Marius Lauder, Anthony Anjorin, Andy Schürr.
 
 ### 2012
-- [**"A Case Study Based Comparison of ATL and SDM."**](https://dx.doi.org/10.1007/978-3-642-34176-2_18). \
+- [**"A Case Study Based Comparison of ATL and SDM"**](https://dx.doi.org/10.1007/978-3-642-34176-2_18). \
 Sven Patzina, Lars Patzina.
 
 ### 2011
-- [**"eMoflon: Leveraging EMF and Professional CASE Tools."**](https://cs.emis.de/LNI/Proceedings/Proceedings192/281.pdf). \
+- [**"eMoflon: Leveraging EMF and Professional CASE Tools"**](https://cs.emis.de/LNI/Proceedings/Proceedings192/281.pdf). \
 Anthony Anjorin, Marius Lauder, Sven Patzina, Andy Schürr.
