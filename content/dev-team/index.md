@@ -1,10 +1,10 @@
 ---
 title: "Development Team"
-date: 2022-09-01
+date: 2024-02-27
 draft: false
 ---
 
-**eMoflon** is developed jointly at the [Real-Time Systems Lab, TU Darmstadt](https://www.es.tu-darmstadt.de/en/) (TUDa) and the [Database and Information Systems Group, Paderborn University](https://cs.uni-paderborn.de/en/dbis/startseite/) (UPB).
+**eMoflon** is developed jointly at the [Real-Time Systems Lab, TU Darmstadt](https://www.es.tu-darmstadt.de/en/) (TUDa) and the [Database and Information Systems Group, Paderborn University](https://cs.uni-paderborn.de/en/dbis/homepage/) (UPB).
 Feel free to [contact us](../contact).
 
 
