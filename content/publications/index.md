@@ -89,11 +89,11 @@ Lars Fritsche, Erhan Leblebici, Anthony Anjorin, Andy Schürr.
 Erhan Leblebici, Anthony Anjorin, Andy Schürr.
 - [**"Synchronization of Models on Different Abstraction Levels using Triple Graph Grammars"**](https://tuprints.ulb.tu-darmstadt.de/4399/). \
 Anthony Anjorin.
-- [**"A Comparison of Incremental Triple Graph Grammar Tools"**](https://journal.ub.tu-berlin.de/eceasst/article/view/939). \
+- [**"A Comparison of Incremental Triple Graph Grammar Tools"**](https://doi.org/10.14279/tuj.eceasst.67.939). \
 Erhan Leblebici, Anthony Anjorin, Andy Schürr, Stephan Hildebrandt, Jan Rieke, Joel Greenyer.
 
 ### 2013
-- [**"A Survey of Triple Graph Grammar Tools"**](https://journal.ub.tu-berlin.de/eceasst/article/view/865/0). \
+- [**"A Survey of Triple Graph Grammar Tools"**](https://doi.org/10.14279/tuj.eceasst.57.865). \
 Stephan Hildebrandt, Leen Lambers, Holger Giese, Jan Rieke, Joel Greenyer, Wilhelm Schäfer, Marius Lauder, Anthony Anjorin, Andy Schürr.
 
 ### 2012
