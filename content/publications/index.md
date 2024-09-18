@@ -10,6 +10,10 @@ If you are using or have used **eMoflon** in a project, publication, lecture, or
 
 ## List of Publications
 
+### 2024
+- [**"Using Application Conditions to Rank Graph Transformations for Graph Repair"**](https://doi.org/10.1007/978-3-031-64285-2_8).\
+Lars Fritsche, Alexander Lauer, Andy Schürr, Gabriele Taentzer.
+
 ### 2023
 - [**"Advanced Consistency Restoration with Higher-Order Short-Cut Rules"**](https://doi.org/10.1007/978-3-031-36709-0_10).\
 Lars Fritsche, Jens Kosiol, Adrian Möller, Andy Schürr.
