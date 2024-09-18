@@ -10,6 +10,10 @@ If you are using or have used **eMoflon** in a project, publication, lecture, or
 
 ## List of Publications
 
+### 2024
+- [**"Generating Training Data Sets for Machine Learning Approaches with GIPS"**](https://doi.org/10.1007/978-3-031-71874-8_9).\
+Maximilian Kratz, Sebastian Ehmes, Marco Volle, Andy Schürr.
+
 ### 2023
 - [**"Advanced Consistency Restoration with Higher-Order Short-Cut Rules"**](https://doi.org/10.1007/978-3-031-36709-0_10).\
 Lars Fritsche, Jens Kosiol, Adrian Möller, Andy Schürr.
