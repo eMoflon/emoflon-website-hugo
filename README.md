@@ -63,11 +63,11 @@ This version is also used by our [CI-Pipeline](#pipeline).
 
 Required downloads may be found here:
 
-* [Github release page](https://github.com/gohugoio/hugo/releases/tag/v0.101.0)
-* [Direct download Linux (deb)](https://github.com/gohugoio/hugo/releases/download/v0.101.0/hugo_extended_0.101.0_Linux-64bit.deb)
-* [Direct download Linux (tar)](https://github.com/gohugoio/hugo/releases/download/v0.101.0/hugo_extended_0.101.0_Linux-64bit.tar.gz)
-* [Direct download macOS](https://github.com/gohugoio/hugo/releases/download/v0.101.0/hugo_extended_0.101.0_macOS-64bit.tar.gz)
-* [Direct download Windows](https://github.com/gohugoio/hugo/releases/download/v0.101.0/hugo_extended_0.101.0_Windows-64bit.zip)
+* [Github release page](https://github.com/gohugoio/hugo/releases/tag/v0.134.2)
+* [Direct download Linux (deb)](https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_extended_0.134.2_linux-amd64.deb)
+* [Direct download Linux (tar)](https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_extended_0.134.2_linux-amd64.tar.gz)
+* [Direct download macOS](https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_extended_0.134.2_darwin-universal.tar.gz)
+* [Direct download Windows](https://github.com/gohugoio/hugo/releases/download/v0.134.2/hugo_extended_0.134.2_windows-amd64.zip)
 
 ### Usage of Hugo
 
