@@ -11,7 +11,8 @@ If you are using or have used **eMoflon** in a project, publication, lecture, or
 ## List of Publications
 
 ### 2024
-- [**"Generating Training Data Sets for Machine Learning Approaches with GIPS"**](https://doi.org/10.1007/978-3-031-71874-8_9).\
+<!-https://doi.org/10.1007/978-3-031-71874-8_9->
+- [**"Generating Training Data Sets for Machine Learning Approaches with GIPS"**](https://link.springer.com/chapter/10.1007/978-3-031-71874-8_9).\
 Maximilian Kratz, Sebastian Ehmes, Marco Volle, Andy Schürr.
 - [**"Using Application Conditions to Rank Graph Transformations for Graph Repair"**](https://doi.org/10.1007/978-3-031-64285-2_8).\
 Lars Fritsche, Alexander Lauer, Andy Schürr, Gabriele Taentzer.
