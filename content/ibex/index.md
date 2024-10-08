@@ -1,6 +1,6 @@
 ---
 title: "eMoflon::IBeX"
-date: 2023-01-30
+date: 2024-10-08
 draft: false
 ---
 
@@ -44,6 +44,10 @@ Besides that, you can also use **eMoflon::IBeX-GT** to search for patterns in a 
 
 ___
 ## eMoflon::IBeX-TGG
+
+{{< notice warning >}}
+The development of eMoflon::IBeX-TGG was discontinued in 2024.
+{{< /notice >}}
 
 **Triple Graph Grammars (TGGs)** are a declarative and rule-based technique to specify bidirectional model transformations.
 Basically, this means that **TGGs** are used to express a consistency relationship between two models.
