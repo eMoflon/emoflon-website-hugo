@@ -46,7 +46,7 @@ ___
 ## eMoflon::IBeX-TGG
 
 {{< notice warning >}}
-eMoflon::IBeX-TGG was discontinued in 2024.
+The development of eMoflon::IBeX-TGG was discontinued in 2024.
 {{< /notice >}}
 
 **Triple Graph Grammars (TGGs)** are a declarative and rule-based technique to specify bidirectional model transformations.
