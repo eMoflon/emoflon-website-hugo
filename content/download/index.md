@@ -30,7 +30,8 @@ There are several versions available for **Windows**, **Linux**, and **macOS**:
 
 You can download the latest version of our pre-built virtual machine image from the [release section of our GitHub repository](https://github.com/eMoflon/emoflon-ibex-vm/releases).
 
-Unfortunately, we aren't able to release the whole OVA image as one file on GitHub. Therefore, you have to download all ZIP archive parts and extract them locally on your computer. You can find detailed installation instructions in the [README.md file](https://github.com/eMoflon/emoflon-ibex-vm#usageinstallation) within the repository.
+Unfortunately, we aren't able to release the whole OVA image as one file on GitHub. Therefore, you have to download all ZIP archive parts and extract them locally on your computer.
+You can find detailed installation instructions in the [README.md file](https://github.com/eMoflon/emoflon-ibex-vm#usageinstallation) within the repository.
 
 ### Eclipse Update Site (IBeX)
 
@@ -62,7 +63,9 @@ There are versions available for **Windows**, **Linux**, and **macOS**:
 
 You can download the latest version of our pre-built virtual machine image from the [release section of our GitHub repository](https://github.com/eMoflon/emoflon-neo-vm/releases).
 
-Unfortunately, we aren't able to release the whole OVA image as one file on GitHub. Therefore, you have to download all ZIP archive parts and extract them locally on your computer. You can find detailed installation instructions in the [README.md file](https://github.com/eMoflon/emoflon-neo-vm#usageinstallation) within the repository.
+Unfortunately, we aren't able to release the whole OVA image as one file on GitHub.
+Therefore, you have to download all ZIP archive parts and extract them locally on your computer.
+You can find detailed installation instructions in the [README.md file](https://github.com/eMoflon/emoflon-neo-vm#usageinstallation) within the repository.
 
 ### Eclipse Update Site (Neo)
 
