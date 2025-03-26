@@ -5,6 +5,14 @@ CheckScripts: false
 IgnoreAltMissing: true
 IgnoreURLs:
   - "emoflon.org"
+  - "https://doi.org/10.1007/s00165-021-00557-0"
+  - "https://doi.org/10.1145/3449639.3459283"
+  - "https://doi.org/10.1145/3426425.3426931"
+  - "https://doi.org/10.1145/3426425.3426932"
+  - "https://doi.org/10.1145/3365438.3410991"
+  - "https://doi.org/10.1145/3357766.3359529"
+  - "https://doi.org/10.1145/3357766.3359544"
+  - "https://doi.org/10.1145/3270112.3275339"
 HTTPHeaders:
   "User-Agent": "chrome"
   "accept-encoding": "deflate"
