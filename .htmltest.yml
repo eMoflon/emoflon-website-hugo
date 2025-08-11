@@ -13,6 +13,7 @@ IgnoreURLs:
   - "https://doi.org/10.1145/3357766.3359529"
   - "https://doi.org/10.1145/3357766.3359544"
   - "https://doi.org/10.1145/3270112.3275339"
+  - "https://cs.emis.de/LNI/Proceedings/Proceedings192/281.pdf"
 HTTPHeaders:
   "User-Agent": "chrome"
   "accept-encoding": "deflate"
