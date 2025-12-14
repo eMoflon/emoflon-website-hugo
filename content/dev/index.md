@@ -4,7 +4,7 @@ date: 2024-02-27
 draft: false
 ---
 
-**eMoflon** is developed jointly at the [Real-Time Systems Lab, TU Darmstadt](https://www.es.tu-darmstadt.de/en/) (TUDa) and the [Database and Information Systems Group, Paderborn University](https://cs.uni-paderborn.de/en/dbis/homepage/) (UPB).
+**eMoflon** is developed jointly at the [Real-Time Systems Lab, TU Darmstadt](https://www.es.tu-darmstadt.de/en/) (TUDa) and the [Database and Information Systems Group, Paderborn University](https://cs.uni-paderborn.de/en/) (UPB).
 You can find the list of contributors on the [eMoflon developer page](../dev-team).
 
 The source code of **eMoflon** is available at our [GitHub organization](https://github.com/eMoflon).
