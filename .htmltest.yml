@@ -16,6 +16,9 @@ IgnoreURLs:
   - "https://cs.emis.de/LNI/Proceedings/Proceedings192/281.pdf"
   - "https://doi.org/10.18420/se2022-ws-005"
   - "https://doi.org/10.17619/UNIPB/1-1301"
+  - "https://lmcs.episciences.org/17597"
+  - "https://cs.uni-paderborn.de/en/"
+  - "https://www.uni-paderborn.de/person/53103"
 HTTPHeaders:
   "User-Agent": "chrome"
   "accept-encoding": "deflate"
