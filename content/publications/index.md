@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-date: 2024-10-10
+date: 2026-03-19
 draft: false
 ---
 
@@ -9,6 +9,10 @@ In the following, we provide a collection of relevant publications.
 If you are using or have used **eMoflon** in a project, publication, lecture, or similar, please contact us.
 
 ## List of Publications
+
+### 2026
+- [**"Using weakest application conditions to rank graph transformations for graph repair"**](https://lmcs.episciences.org/17597).\
+Lars Fritsche, Alexander Lauer, Maximilian Kratz, Andy Schürr, Gabriele Taentzer.
 
 ### 2025
 - [**"GIPS: A Graph- and MILP-based Optimization Framework"**](https://tuprints.ulb.tu-darmstadt.de/30156/).\
