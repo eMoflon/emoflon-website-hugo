@@ -15,7 +15,7 @@ If you are using or have used **eMoflon** in a project, publication, lecture, or
 Lars Fritsche, Alexander Lauer, Maximilian Kratz, Andy Schürr, Gabriele Taentzer.
 
 ### 2025
-- [**"GIPS: A Graph- and MILP-based Optimization Framework"**](https://tuprints.ulb.tu-darmstadt.de/30156/).\
+- [**"GIPS: A Graph- and MILP-based Optimization Framework"**](https://tuprints.ulb.tu-darmstadt.de/30156).\
 Sebastian Ehmes.
 - [**"Model-Driven Rapid Prototyping for Control Algorithms with the GIPS Framework (System Description)"**](https://dx.doi.org/10.4204/EPTCS.417.9).\
 Maximilian Kratz, Sebastian Ehmes, Philipp Maximilian Menzel, Andy Schürr.
@@ -33,7 +33,7 @@ Lars Fritsche, Jens Kosiol, Adrian Möller, Andy Schürr.
 ### 2022
 - [**"Graph-Based Specification and Automated Construction of ILP Problems"**](http://dx.doi.org/10.4204/EPTCS.374.3).\
 Sebastian Ehmes, Maximilian Kratz, Andy Schürr.
-- [**"Local Consistency Restoration Methods for Triple Graph Grammars"**](https://tuprints.ulb.tu-darmstadt.de/21443/). \
+- [**"Local Consistency Restoration Methods for Triple Graph Grammars"**](https://tuprints.ulb.tu-darmstadt.de/21443). \
 Lars Fritsche.
 - [**"A Precedence-Driven Approach for Concurrent Model Synchronization Scenarios using Triple Graph Grammars"**](https://doi.org/10.18420/se2022-ws-005). \
 Lars Fritsche, Jens Koisol, Adrian Möller, Andy Schürr, Gabriele Taentzer.
@@ -103,7 +103,7 @@ Lars Fritsche, Erhan Leblebici, Anthony Anjorin, Andy Schürr.
 ### 2014
 - [**"Developing eMoflon with eMoflon"**](https://doi.org/10.1007/978-3-319-08789-4_10). \
 Erhan Leblebici, Anthony Anjorin, Andy Schürr.
-- [**"Synchronization of Models on Different Abstraction Levels using Triple Graph Grammars"**](https://tuprints.ulb.tu-darmstadt.de/4399/). \
+- [**"Synchronization of Models on Different Abstraction Levels using Triple Graph Grammars"**](https://tuprints.ulb.tu-darmstadt.de/4399). \
 Anthony Anjorin.
 - [**"A Comparison of Incremental Triple Graph Grammar Tools"**](https://doi.org/10.14279/tuj.eceasst.67.939). \
 Erhan Leblebici, Anthony Anjorin, Andy Schürr, Stephan Hildebrandt, Jan Rieke, Joel Greenyer.
