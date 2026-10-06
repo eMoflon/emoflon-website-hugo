@@ -19,6 +19,7 @@ IgnoreURLs:
   - "https://lmcs.episciences.org/17597"
   - "https://cs.uni-paderborn.de/en/"
   - "https://www.uni-paderborn.de/person/53103"
+  - "https://doi.org/10.1145/3837062.3839356"
 HTTPHeaders:
   "User-Agent": "chrome"
   "accept-encoding": "deflate"
